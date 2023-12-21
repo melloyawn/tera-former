@@ -1,0 +1,25 @@
+[package]
+name = "tera-former"
+description = "a minimal static site generator"
+authors = ["melloyawn <contact@melloyawn.com>"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+homepage = "https://github.com/melloyawn/tera-former"
+repository = "https://github.com/melloyawn/tera-former"
+
+categories = [
+    "command-line-utilities",
+    "template-engine",
+    "web-programming",
+]
+keywords = [
+    "static",
+    "site",
+    "generator",
+    "tera",
+]
+
+[dependencies]
+entrypoint = "0.1.2"
